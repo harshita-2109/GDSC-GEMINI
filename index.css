@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 75px;
+  background: #ffffff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+
+}
+
+nav .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  max-width: 90%;
+  background: #ffffff;
+  margin: auto;
+}
+
+nav ul li {
+
+  padding: 0 20px 0 20px;
+
+}
+
+
+
+nav .navbar .logo a {
+  color: #000000;
+
+
+  text-decoration: none;
+}
+
+nav .navbar .menu {
+  display: flex;
+
+}
+
+.navbar .menu li {
+  list-style: none;
+  margin: 0 15px;
+
+}
+
+.navbar .menu li a {
+  color: #000000;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+
+}
+
+.logo img {
+  float: left;
+  display: inline;
+}
+
+.logo p {
+  font-size: 18px;
+  left: 60px;
+  display: inline;
+  margin-top: 50px;
+}
+
+.box {
+  margin-top: 100px;
+}
+
+.curve {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+}
+
+.circle {
+  top: 120px;
+  right: 440px;
+  position: absolute;
+}
+
+p .google {
+  margin-top: 40px;
+}
+
+.outerDiv {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerDiv {
+  position: absolute;
+}
+
+.innerDiv:first-child {
+  width: 100vw;
+  height: 100vh;
+}
+
+.innerDiv:second-child {
+  z-index: 1;
+}
+
+.text {
+  position: absolute;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.green-circle {
+  position: absolute;
+  margin-top: 100px;
+  bottom: 0;
+  right: 0;
+}
+
+.grey-sq {
+  position: absolute;
+  bottom: 0;
+
+  left: 40px;
+}
